@@ -1,0 +1,6 @@
+# Ignore these directories:
+suplementarty-materials/
+logs/
+
+# Ignore temporary files:
+log.tem
