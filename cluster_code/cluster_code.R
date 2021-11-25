@@ -10,3 +10,6 @@ set.seed(123)
 km.res <- kmeans(df, 4, nstart = 25)
 clustering_result <- cbind(USArrests, cluster = km.res$cluster)
 write.csv(clustering_result, file = args[2])
+
+# second stage of the project
+# validating that the labels are making sense
